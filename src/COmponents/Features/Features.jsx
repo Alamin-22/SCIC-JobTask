@@ -1,10 +1,9 @@
 import { FaCode } from "react-icons/fa";
 import { MdOutlineCorporateFare } from "react-icons/md";
 import { GiBank } from "react-icons/gi";
-import { FcMindMap } from "react-icons/fc";
 import { MdWork } from "react-icons/md";
 import { FaPersonWalkingLuggage } from "react-icons/fa6";
-
+import { SiMinds } from "react-icons/si";
 const Features = () => {
     return (
         <div>
@@ -22,7 +21,7 @@ const Features = () => {
                         <div className="xl:w-1/3 md:w-1/2 p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                                    <FaCode className="text-2xl" />
+                                    <FaCode className="text-2xl text-red-400 " />
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Developers Delight</h2>
                                 <p className="leading-relaxed text-base">
@@ -33,19 +32,18 @@ const Features = () => {
                         <div className="xl:w-1/3 md:w-1/2 p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                                    <MdOutlineCorporateFare className="text-2xl" />
+                                    <MdOutlineCorporateFare className="text-2xl text-red-400" />
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Corporate Professionals Corner</h2>
                                 <p className="leading-relaxed text-base">
                                     Elevate project management for corporate initiatives, ensuring seamless coordination and timely execution.
-
                                 </p>
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                                    <GiBank className="text-2xl" />
+                                    <GiBank className="text-2xl text-red-400" />
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Bankers Boost</h2>
                                 <p className="leading-relaxed text-base">
@@ -56,7 +54,7 @@ const Features = () => {
                         <div className="xl:w-1/3 md:w-1/2 p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                                    <FcMindMap className="text-2xl" />
+                                    <SiMinds className="text-2xl text-red-600" />
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Creative Minds Hub</h2>
                                 <p className="leading-relaxed text-base">
@@ -67,7 +65,7 @@ const Features = () => {
                         <div className="xl:w-1/3 md:w-1/2 p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                                    <MdWork className="text-2xl" />
+                                    <MdWork  className="text-2xl text-red-400" />
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Remote Work Champions</h2>
                                 <p className="leading-relaxed text-base">
@@ -78,7 +76,7 @@ const Features = () => {
                         <div className="xl:w-1/3 md:w-1/2 p-4">
                             <div className="border border-gray-200 p-6 rounded-lg">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                                    <FaPersonWalkingLuggage className="text-2xl" />
+                                    <FaPersonWalkingLuggage className="text-2xl text-red-400" />
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Entrepreneurs Ally</h2>
                                 <p className="leading-relaxed text-base">

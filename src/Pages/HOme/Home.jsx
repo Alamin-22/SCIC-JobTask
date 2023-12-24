@@ -3,7 +3,7 @@ import Features from "../../COmponents/Features/Features";
 
 const Home = () => {
     return (
-        <div>
+        <div className="bg-red-50">
             <Banner></Banner>
             <Features></Features>
         </div>

@@ -6,7 +6,7 @@ import bannerAni from '../../assets/annimation/Animation - 1703359019104.json';
 const Banner = () => {
     return (
         <div>
-            <div className="hero h-[80vh] bg-red-50 rounded-lg">
+            <div className="hero  bg-red-50 rounded-lg">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div>
                         <Lottie animationData={bannerAni} className="w-full"></Lottie>
