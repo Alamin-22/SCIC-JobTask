@@ -11,7 +11,6 @@ const Navbar = () => {
     </>
 
 
-
     return (
         <div>
             <div className="navbar bg-red-100 ">
